@@ -50,13 +50,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="GetKoreanHolidayInfo.cs" />
+    <Compile Include="GetPostalCode.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <XamlAppDef Include="Activity1.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </XamlAppDef>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
